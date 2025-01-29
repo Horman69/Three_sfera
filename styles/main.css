@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
+body {
+    overflow: hidden;
+    margin: 0;
+    background: #000;
+}
+
+#text {
+    position: absolute;
+    bottom: 5vh;
+    left: calc(50% - 28vh);
+    z-index: 10;
+}
+
+.writing {
+    --glow: #48f;
+    display: block;
+    transform: rotate(-15deg);
+    font-family: 'Neonderthaw', cursive;
+    font-size: 14vh;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 
+        0 0 0.125vh var(--glow),
+        0 0 0.125vh var(--glow),
+        0 0 0.25vh var(--glow),
+        0 0 0.5vh var(--glow),
+        0 0 0.75vh var(--glow);
+} 
