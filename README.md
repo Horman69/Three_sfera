@@ -2,7 +2,6 @@
 
 An interactive 3D visualization created with Three.js featuring a dynamic sphere with particle effects, holographic animations, and responsive mouse interactions.
 
-https://github.com/user-attachments/assets/8eef8f5c-3aa7-4be7-ab5f-40238ab1fdf5
 
 ![Abstract Star 3D Preview](preview.gif)
 
